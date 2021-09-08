@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
