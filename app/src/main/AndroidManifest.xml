@@ -9,13 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Internal_viewActivity"></activity>
+        <activity
+            android:name=".External_markActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".Internal_markActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".MarkActivity" />
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
+
 
 </manifest>

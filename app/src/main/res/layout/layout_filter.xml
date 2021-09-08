@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="22sp"
+        android:textColor="#0009ff"
+        android:text="Select the semester"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:id="@+id/filter_group"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text=""
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semI"
+            android:text="Sem I"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semII"
+            android:text="Sem II"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semIII"
+            android:text="Sem III"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semIV"
+            android:text="Sem IV"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semV"
+            android:text="Sem V"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semVI"
+            android:text="Sem VI"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semVII"
+            android:text="Sem VII"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/semVIII"
+            android:text="Sem VIII"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+
+    </RadioGroup>
+
+
+
+
+
+
+
+
+</LinearLayout>
